@@ -1,0 +1,20 @@
+numpy>=1.9.2
+scipy>=0.15.1
+matplotlib>=1.4.3
+pandas>=0.19
+seaborn==0.9.0
+cloudpickle>=0.6.0
+joblib>=0.14.0
+scikit-learn==1.6.0
+
+tensorflow>=2.12.0
+keras>=2.12.0
+
+certifi==2019.11.28
+Click>=7.0
+Flask>=2.0.0  # Actualizado para compatibilidad
+gunicorn==19.9.0
+itsdangerous>=1.1.0
+Jinja2>=3.0.0  # Compatible con Flask 2.0.0+
+MarkupSafe>=2.0.0  # Compatible con Flask 2.0.0+
+Werkzeug>=1.0.1  # Actualizado para TensorBoard

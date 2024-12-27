@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Predicción con Autoencoder</title>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -13,12 +13,14 @@
 </head>
 
 <body>
-    <h1>Predicción con Autoencoder</h1>
-    <form action="/predict" method="post">
-        <label for="data">Datos (separados por comas): </label>
-        <input type="text" id="data" name="data">
-        <button type="submit">Predecir</button>
-    </form>
+    <divc class="container">
+        <h1>Predicción con Autoencoder</h1>
+        <form action="/predict" method="post">
+            <label for="data">Datos (separados por comas):</label>
+            <input type="text" id="data" name="data" placeholder="Ejemplo: 0.1, 0.2, 0.3, ...">
+            <button type="submit">Predecir</button>
+        </form>
+    </divc>
 </body>
 
 </html>
